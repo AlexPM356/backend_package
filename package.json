@@ -1,0 +1,17 @@
+{
+  "name": "auto-back-server",
+  "version": "1.0.2",
+  "description": "Express backend setup automation",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Rodríguez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "type": "module",
+  "bin": "./bin.mjs"
+}
