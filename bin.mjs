@@ -33,6 +33,8 @@ mainPromise
 })
 .then((optionSelected) => {
   setTimeout(() => {
+      /* THE WORKING FOLDERS ARE THE FOLDERS INSIDE OF THE src FOLDER
+      SO IN ORDER TO AVOID ANY ERRORS THE FUNCTION SHOULD BE DELAYED */
       WorkingFolders();
       CreateAllFiles(JsFiles[parseInt(optionSelected)]);
       setTimeout(() => {
