@@ -1,6 +1,6 @@
 {
   "name": "auto-back-server",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Express backend setup automation",
   "main": "",
   "scripts": {

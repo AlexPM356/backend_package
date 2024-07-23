@@ -1,13 +1,13 @@
-import express from 'express';
+export const esModuleExpress = "import express from 'express';\n\n"+
 
-const app = express();
-const PORT = process.env.PORT || 3000;
+"const app = express();\n"+
+"const PORT = process.env.PORT || 3000;\n\n"+
 
-app.get('/', (req, res) =>{
-    console.log('Express with ES Module');
-});
+"app.get('/', (req, res) =>{\n"+
+"    console.log('Express with ES Module');\n"+
+"});\n\n"+
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-    console.log('----------------------------------------------');
-});
+"app.listen(PORT, () => {\n"+
+"    console.log(`Server running on port ${PORT}`);\n"+
+"    console.log('----------------------------------------------');\n"+
+"});"
